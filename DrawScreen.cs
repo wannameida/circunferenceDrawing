@@ -16,5 +16,16 @@ namespace circunferenceDraw
         {
             InitializeComponent();
         }
+
+        private void DrawScreen_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void DrawScreen_Paint(object sender, PaintEventArgs e)
+        {
+            Pen pen = new Pen(Color.Black);
+            e.Graphics.DrawEllipse(pen, 500, 500, 100, 100);
+        }
     }
 }

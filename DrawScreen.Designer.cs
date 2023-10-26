@@ -37,6 +37,8 @@
             this.ClientSize = new System.Drawing.Size(984, 961);
             this.Name = "DrawScreen";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.DrawScreen_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.DrawScreen_Paint);
             this.ResumeLayout(false);
 
         }
