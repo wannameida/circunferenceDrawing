@@ -26,6 +26,7 @@ namespace circunferenceDraw
         private void Home_Load(object sender, EventArgs e)
         {
             DrawScreen drawScreen = new DrawScreen();
+            drawScreen.Show();
 
         }
     }
